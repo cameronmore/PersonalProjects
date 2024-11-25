@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib.colors as mcolors
 
+# This script was generated with help from Microsoft's Bing AI model.
+
 # Parameters
 N = 100            # Total population
 grid_size = int(np.sqrt(N))  # Size of the 2D grid
