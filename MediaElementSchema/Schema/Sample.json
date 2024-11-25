@@ -1,0 +1,58 @@
+{
+    "mediaData":[
+    {
+        "title":"Love and Hate",
+        "author":{"firstName":"Robert","lastName":"Robertson"},
+        "author2":{"firstName":"Barry","lastName":"Smith"},
+        "author3":{"firstName":"Patricia","lastName":"Waltz"},
+        "editor":{"firstName":"Donald","lastName":"Fischer"},
+        "publisher":{"publisherName":"Penguin Books","location":"London"},
+        "translator":{"firstName":"Martin","lastName":"Washington"},
+        "mediaType":"book",
+        "time":{"year":"2004"}
+    },{
+        "title":"Analyzing the Void",
+        "author":{"firstName":"Robert","lastName":"Robertson"},
+        "author2":{"firstName":"Scott","lastName":"Charles"},
+        "mediaType":"article",
+        "time":{"year":"2004"},
+        "journal":{"journalName":"Media Studies","volume":"44","issue":"1"},
+        "length":{"firstPage":"10","lastPage":"15"},
+        "doi":"https://doi.org/10.1086/727651"
+    },{
+        "title":"Capacity",
+        "mediaType":"webpage without author",
+        "publisher":{"publisherName":"Merriam Webster"},
+        "url":"https://www.merriam-webster.com/dictionary/capacity",
+        "accessDate":"August 1, 2024",
+        "time":{"year":"2024"}
+    },{
+        "title":"An Online Essay",
+        "mediaType":"webpage with author",
+        "author":{"firstName":"Sandra","lastName":"McCarthy"},
+        "publisher":{"publisherName":"The New York Times"},
+        "url":"https://www.nyt.com/editorial/An-Online-Essay",
+        "accessDate":"August 1, 2024",
+        "time":{"year":"2024","month":"July","day":"3"}
+    },{
+        "title":"The Void",
+        "mediaType":"film",
+        "author":{"firstName":"Laurence","lastName":"Directorson"},
+        "author2":{"firstName":"Bob","lastName":"McGill"},
+        "author3":{"firstName":"Phil","lastName":"Kennedy"},
+        "length":{"duration":{"hours":"1","minutes":"12"}},
+        "publisher":{"publisherName":"Paramount"},
+        "time":{"year":"2024"},
+        "url":"https://www.Netflix.com/films/Void"
+    },{
+        "title":"The Void: Seeing the Unseen",
+        "mediaType":"chapter in book",
+        "author":{"firstName":"Filip","lastName":"Keynes"},
+        "editor":{"firstName":"Chuck","lastName":"Bryan"},
+        "editor2":{"firstName":"Martha","lastName":"Peterson"},
+        "publisher":{"publisherName":"Random House Books","location":"London"},
+        "editedVolume":"Film Reviews: 2000-2024",
+        "time":{"year":"2004"},
+        "length":{"firstPage":"22","lastPage":"75"}
+    }]
+    }
