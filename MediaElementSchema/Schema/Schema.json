@@ -1,0 +1,300 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://MediaElementSchema.com/Schema.json",
+    "title": "Media Element Schema",
+    "description": "A JSON Schema specifying bibliographic information for various media elements.",
+    "type": "object",
+    "properties": {
+        "title": {
+            "description": "The title of the media element",
+            "type": "string"
+        },
+        "mediaType": {
+            "description": "The meduim of the media. Ex: book, article, webpage with author, etc.",
+            "type": "string"
+        },
+        "author": {
+            "description": "The creator of the media, including director of a film. Note, this field must be a person, not an organization",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "author2": {
+            "description": "The second creator or contributor of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "author3": {
+            "description": "The third creator or contributor of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "author4": {
+            "description": "The fourth creator or contributor of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "author5": {
+            "description": "The fifth creator or contributor of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "author6": {
+            "description": "The sixth creator or contributor of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "length": {
+            "description": "The length of the media, including page length or duration in a video or audio medium.",
+            "type": "object",
+            "properties": {
+                "firstPage": {
+                    "type": "integer"
+                },
+                "lastPage": {
+                    "type": "integer"
+                },
+                "duration": {
+                    "type": "object",
+                    "properties":{
+                        "hours":{
+                            "type":"string"
+                        },
+                        "minutes":{
+                            "type":"string"
+                        },
+                        "seconds":{
+                            "type":"string"
+                        }
+                    }
+                }
+            }
+        },
+        "time": {
+            "description": "The publication date of the media.",
+            "type": "object",
+            "properties": {
+                "year": {
+                    "type": "string"
+                },
+                "month": {
+                    "type": "string"
+                },
+                "day": {
+                    "type": "string"
+                },
+                "season": {
+                    "type": "string"
+                }
+            }
+        },
+        "translator": {
+            "description": "The translator of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "translator2": {
+            "description": "The second translator of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "translator3": {
+            "description": "The third translator of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "translator4": {
+            "description": "The fourth translator of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "translator5": {
+            "description": "The fifth translator of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "editor": {
+            "description": "The editor of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "editor2": {
+            "description": "The second editor of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "editor3": {
+            "description": "The third editor of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "editor4": {
+            "description": "The fourth editor of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "editor5": {
+            "description": "The fifth editor of the media.",
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                }
+            }
+        },
+        "journal": {
+            "description": "The journal information of an article, including name, volume, and issue.",
+            "type": "object",
+            "properties": {
+                "journalName": {
+                    "type": "string"
+                },
+                "volume": {
+                    "type": "string"
+                },
+                "issue": {
+                    "type": "string"
+                }
+            }
+        },
+        "publisher": {
+            "description": "The publisher of media, like a publishing house, website, or organization, including their location.",
+            "type": "object",
+            "properties": {
+                "publisherName": {
+                    "type": "string"
+                },
+                "locaton": {
+                    "type": "string"
+                }
+            }
+        },
+        "doi": {
+            "description": "The doi of the media item.",
+            "type": "string"
+        },
+        "accessDate": {
+            "description": "The date of access of an online resource.",
+            "type": "string"
+        },
+        "url": {
+            "description": "The url of an online resource.",
+            "type": "string"
+        },
+        "editedVolume": {
+            "description": "The name of an edited volume.",
+            "type": "string"
+        }
+    },
+    "required": [
+        "mediaType"
+    ],
+    "additionalProperties": false
+}
