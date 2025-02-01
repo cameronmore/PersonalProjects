@@ -11,3 +11,6 @@ A repository containing personal projects, scripts, and code.
 
 - Statsy
   - Contains the README and link to a Python package I developed for some core statistical functions and operations.
+ 
+- LinkGo
+  - A CLI tool that takes a CSV of URLs and returns a report of invalid or broken links, written in Go.
